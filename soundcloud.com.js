@@ -5,7 +5,6 @@ function toggle_soundcloud_comments(){
     $(this).trigger('click');
   });
   $('.player div.medium').addClass('no-comments');
-  $('.timestamped-comments ').hide();
   console.log('all the comments, toggle them away');
 }
 

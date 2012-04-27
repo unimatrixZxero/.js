@@ -6,7 +6,7 @@ function toggle_soundcloud_comments(){
   });
   $('.player div.medium').addClass('no-comments');
   $('.timestamped-comments ').hide();
-  console.log('toggle away comment thes');
+  console.log('all the comments, toggle them away');
 }
 
 setTimeout(function(){

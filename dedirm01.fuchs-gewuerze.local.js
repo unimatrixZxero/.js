@@ -11,3 +11,7 @@ $('#time-report tbody td').each(function() {
     });
   }
 });
+
+$('body').css('font-family', 'Helvetica Neue')
+
+$('#header').css('background-color','#C6015D')

@@ -15,3 +15,8 @@ $('#time-report tbody td').each(function() {
 $('body').css('font-family', 'Helvetica Neue')
 
 $('#header').css('background-color','#C6015D')
+
+
+if ($('#time_entry_issue_id').length > 0) {
+  $('#time_entry_issue_id').focus();
+}

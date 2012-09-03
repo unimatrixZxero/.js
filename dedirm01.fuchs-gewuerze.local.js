@@ -20,3 +20,7 @@ $('#header').css('background-color','#C6015D')
 if ($('#time_entry_issue_id').length > 0) {
   $('#time_entry_issue_id').focus();
 }
+
+if($('#time_entry_activity_id').length > 0) {
+  $('#time_entry_activity_id').val(9)
+}

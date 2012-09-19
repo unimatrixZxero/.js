@@ -28,3 +28,13 @@ if ($('#time_entry_issue_id').length > 0) {
 if($('#time_entry_activity_id').length > 0) {
   $('#time_entry_activity_id').val(9)
 }
+
+
+// toggle status updates on tickets
+$('#history .has-details').hide();
+
+$('#history h3').after('<span id="history-toggle-status-items" >Toggle status updates!</span>');
+
+$('#history-toggle-status-items').click(function(){
+  $('#history .has-details').toggle();
+});

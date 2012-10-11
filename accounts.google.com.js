@@ -6,8 +6,10 @@ $(function(){
 		// Nicefy table
 		$('#acList').addClass('table table-hover table-striped table-condensed');
 		$('a', '#acList').addClass('btn btn-danger');
-		var td_html = $('a', '#acList').closest('td').html();
-		$('a', '#acList').closest('td').html(td_html.replace(/\[|\]/g, ''));
+		$('a', '#acList').closest('td').each(function(){
+			$this = $(this);
+			$this.html($this.html().replace(/\[|\]/g, ''));
+		});
 
 		// Hide and toggle list of connected services
 		$('ul').hide();

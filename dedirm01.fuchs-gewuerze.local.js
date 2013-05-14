@@ -40,3 +40,8 @@ $('#history-toggle-status-items').click(function(){
   $('#history .has-details').toggle();
   $('#history .has-notes').show();
 });
+
+// show edit fields right away on issues
+if ($("#issue_descr_fields").length > 0) {
+  $("#issue_descr_fields").show()
+}

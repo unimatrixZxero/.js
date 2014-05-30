@@ -1,6 +1,6 @@
-$('#blueBar').css('background-color','#2D2D2D');
+// $('#blueBar').css('background-color','#2D2D2D');
 
-$('body').css('font-family', 'Helvetica Neue');
+// $('body').css('font-family', 'Helvetica Neue');
 
 // Grey it out
 // $('#contentCol, body').css('background-color', '#E4E4E4');
